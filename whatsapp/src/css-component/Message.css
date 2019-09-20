@@ -1,0 +1,32 @@
+img{
+    height: 60px;
+    border-radius: 100%;
+    width: 60px;
+    margin-right: 12px;
+}
+ul{
+    /* width: 100%; */
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0;
+}
+ul>div{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+.name , .number {
+    margin:0;
+}
+.name{
+    font-weight: bold;
+}
+.time{
+    margin: 0;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
